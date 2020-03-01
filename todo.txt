@@ -1,0 +1,5 @@
+- [x] Finir le script bash initial
+- [] Makefile avec tous les objets nécessaires
+- [] Piping d'input dans main.cpp
+- [] Début vizualisateur (utile pour observer l'évolution du script)
+- [] Importer tensorflow dans python, piper dans Python
