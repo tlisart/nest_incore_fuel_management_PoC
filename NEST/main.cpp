@@ -24,3 +24,6 @@ int main(int argc, char** argv)  // Asking possible input as arg, for piping inp
 int loadGeometry(){
   return 1;
 }
+
+int loadPattern(){
+}
