@@ -1,5 +1,24 @@
-- [x] Finir le script bash initial
-- [] Makefile avec tous les objets nécessaires
-- [] Piping d'input dans main.cpp
-- [] Début vizualisateur (utile pour observer l'évolution du script)
-- [] Importer tensorflow dans python, piper dans Python
+- [~x] Finir le script bash initial
+- [x] Makefile avec tous les objets nécessaires
+- [x] Piping d'input dans main.cpp
+
+// Data formatting
+- [] Pseudo-structure LP
+- [] Data structure geométrie
+
+// Physical and quality control
+- [] Complete problem definition
+  - [] Assembly class
+  - [] Core class
+  - [] Evaluation function
+    - [] One assembly one score [0, 1]
+
+// Machine - learning
+- [x] Checking tensorflow
+  - [] Depreciation bug, should still work, but still
+- [] Piping Python - C++
+  - [] Vector conversion (tensorflow vector)
+  - [] Back and forth recombination
+
+(Boni)
+- [] Début visualisateur (utile pour observer l'évolution du script, temps libre)
