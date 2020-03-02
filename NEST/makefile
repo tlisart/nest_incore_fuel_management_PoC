@@ -1,4 +1,4 @@
-CC = g++    # Chosing the C++ basic compiler
+CC = g++    # Chosing the C++ compiler
 
 # compiler flags:
 #  -g    adds debugging information to the executable file

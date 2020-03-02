@@ -12,18 +12,20 @@ Student : Théo Lisart
 */
 
 #include "main.h"
-
-int main(int argc, char** argv)  // Asking possible input as arg, for piping input commands
+int main(int argc, const char * argv[])  // Asking possible input as arg, for piping input commands
 {
-   for (int i = 0; i < argc; ++i){
-     cout << argv[i] << "\n";
-   }
-    return 0;
+
+  // Those are char pointers and cannot be printf(), can be directly compaired to strings
+  string reactor = argv[1];
+  string init_LP = argv[2];
+  string visuOn  = argv[3];
 }
+
 
 int loadGeometry(){
   return 1;
 }
 
 int loadPattern(){
+  return 1;
 }
