@@ -19,6 +19,9 @@ int main(int argc, const char * argv[])  // Asking possible input as arg, for pi
   string reactor = argv[1];
   string init_LP = argv[2];
   string visuOn  = argv[3];
+
+  Core *coreToLoad;
+  coreToLoad = new Core(reactor);
 }
 
 
@@ -26,6 +29,6 @@ int loadGeometry(){
   return 1;
 }
 
-int loadPattern(){
+int loadCore(){
   return 1;
 }

@@ -4,7 +4,7 @@ CC = g++    # Chosing the C++ compiler
 #  -g    adds debugging information to the executable file
 #  -Wall turns on most, but not all, compiler warnings
 CFLAGS  = -g -Wall
-
+LIBS=-lsfml-graphics -lsfml-window -lsfml-system
 # the build target executable:
 default = nest
 
@@ -18,7 +18,7 @@ Swapper/Swapper.o : Swapper/Swapper.cpp Swapper/Swapper.h
 	$(CC) $(CFLAGS) -c Swapper/Swapper.cpp
 
 Visualizer/Visualizer.o : Visualizer/Visualizer.cpp Visualizer/Visualizer.h
-	$(CC) $(CFLAGS) -c Visualizer/Visualizer.cpp
+	$(CC) $(CFLAGS) -c Visualizer/Visualizer.cpp $(LIBS)
 
 
 #Deleting object files
