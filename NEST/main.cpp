@@ -24,7 +24,6 @@ int main(int argc, const char * argv[])  // Asking possible input as arg, for pi
   coreToLoad = new Core(reactor);
 }
 
-
 int loadGeometry(){
   return 1;
 }

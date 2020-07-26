@@ -1,5 +1,5 @@
 echo "#######################################################################################"
-echo '#     Welcome to NEST ! Make sure you read the README.txt before using this software  #'
+echo '#     Welcome to NEST.  Make sure you read the README.txt before using this software  #'
 echo '#     Made by Théo Lisart for Engie-Tractebel                                         #'
 echo '#     2019-2020, academic year                                                        #'
 echo "#######################################################################################"
@@ -7,13 +7,18 @@ echo ""
 echo "Ver 0.1 --- Type the '-help' command for instructions"
 echo "Default reactor configuration -- T2"
 echo ""
-
+echo "In-core fuel optimiziation using machine-learning tools"
+echo ""
+echo ""
+echo ""
+echo ""
 
 
 selectGeometry="T2"
 selectInit="T2_1"
 visuOn=0
 PS1="(NEST)"
+COUNT=1
 
 #PATHS
 search_geo=NEST/bin/Geometries
@@ -43,6 +48,47 @@ readCommand(){
   then
     exit 0
 
+  elif [ $1 == '-poetry' ]
+  then
+    echo ""
+    sleep 1
+    echo "BEGIN"
+    sleep 2
+    echo "-------------------------------------------------------------------------------------------------------"
+    echo ""
+    sleep 1
+    echo "De silicium, de paires calcium et potassium,"
+    sleep 3
+    echo "oscillent, suivant l'air beau de l'horloge atomique."
+    sleep 3
+    echo "Je suis serré dans le purgatoire, l'atrium :"
+    sleep 3
+    echo "La pression digitale nue, frémi d'harmoniques."
+    echo ""
+    sleep 3
+    echo "Plus clairement, je m'exprimerai dans mon langage naturel :"
+    echo ""
+    echo ""
+    sleep 3
+    for COUNT in 1 2 3 4 5 6 7
+    do
+        echo "0"
+        sleep 0.2
+    done
+    echo ""
+    echo ""
+
+    echo "Je n'avais rien à dire, contenu nul et cruel."
+    sleep 3
+    echo "Je connais l'amours, ton pokémon préféré."
+    sleep 2
+    echo "Tu n'as rien d'autre à lire, mais le kokyas perle."
+    sleep 3
+    echo "Suis-je lourd ? Mon ton se limite au programmé"
+    sleep 2.5
+    echo ""
+    echo "-------------------------------------------------------------------------------------------------------"
+    echo "END"
   #Run
   elif [ $1 == '-run' ]
   then
