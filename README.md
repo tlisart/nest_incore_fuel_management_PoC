@@ -13,11 +13,8 @@ The grand idea would have been vizualising tools for PWR, as well as human patte
 # Philosophy 
 The IA tools should have been correctly build into bash-scripts for piping data in the compagny's tools ecosystem. Trying to improve the Engineer's workflow. 
 
+# Depedencies
+The vizualizer (1/4th of the reactor) works on SFML and the latter should thus be installed
+
 # Install
 cd into the NEST folder. Then 'make' command. Launching with ./nest.sh
-
-# Description content
-# Design pattern
-
-## Visualization tools
-## Machine-learning code
